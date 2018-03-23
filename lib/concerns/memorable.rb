@@ -1,5 +1,7 @@
-module Memorable
   require_relative '../lib/concerns/memorable'
+  module Memorable
+    extend Artist
+    extend Song
 
   def self.reset_all
     self.all.clear
