@@ -3,11 +3,11 @@
     extend Artist
     extend Song
 
-  def self.reset_all
-    self.all.clear
+  def reset_all
+    all.clear
   end
 
-  def self.count
+  def count
     @@artists.count
   end
 end
